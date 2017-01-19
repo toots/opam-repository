@@ -9,8 +9,8 @@ build: [
   ["sh" "-exc" "cc -c $CFLAGS -I/usr/local/include test.c"]
 ]
 depexts: [
-  [["debian"] ["libgmp-dev"]]
-  [["ubuntu"] ["libgmp-dev"]]
+  [["debian"] ["libgmp3-dev"]]
+  [["ubuntu"] ["libgmp3-dev"]]
   [["osx" "homebrew"] ["gmp"]]
   [["centos"] ["gmp" "gmp-devel"]]
   [["fedora"] ["gmp" "gmp-devel"]]
