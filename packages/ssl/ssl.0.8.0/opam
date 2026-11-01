@@ -24,16 +24,16 @@ build: [
     "-j"
     jobs
     "@install"
-    "@runtest" {with-test & os != "macos"}
+    "@runtest" {with-test}
     "@doc" {with-doc}
   ]
 ]
 dev-repo: "git+https://github.com/savonet/ocaml-ssl.git"
 x-maintenance-intent: ["(latest)"]
 url {
-  src: "https://github.com/savonet/ocaml-ssl/archive/refs/tags/v0.8.0.tar.gz"
+  src: "https://github.com/savonet/ocaml-ssl/archive/refs/tags/v0.8.1.tar.gz"
   checksum: [
-    "md5=a1617d39ce93b98bca554a4c5b3340ae"
-    "sha512=8178e51ab94aaaa1ed2438e8edac876db35fdf046be52e5d2237e1f8c27fe3483e2442f147de8ef0491be7673430d52e3349ad4070060ba5699efeb39b47fbea"
+    "md5=a73117ff21d46d01cd7408629dc32fc1"
+    "sha512=83443a9213bdd0986307ee4d29883127fea7cb66334ea43c14fd82631269957daf61cc7289031efb53ea235bf28ef93d5d67fb9069bf05ca9bb1c88818f86501"
   ]
 }
